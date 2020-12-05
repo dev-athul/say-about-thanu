@@ -21,7 +21,6 @@ function readOutLoad(message){
     const speech = new SpeechSynthesisUtterance();
     speech.volume=1;
     speech.rate=1;
-    speech.pitch=1;
     speech.text='I dont know, what you are speaking'
     if(message.includes('do you know me')){
         speech.text='Yeah, I do. You are Athulya from Mukkam, BA Economics student in GCK';
